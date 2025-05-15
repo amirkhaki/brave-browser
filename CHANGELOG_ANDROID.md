@@ -1,5 +1,70 @@
 # Changelog
 
+## [1.78.99](https://github.com/brave/brave-browser/releases/tag/v1.78.99)
+
+ - Fixed Brave startup slowdown caused by unnecessary dev resources loading. ([#45969](https://github.com/brave/brave-browser/issues/45969))
+
+## [1.78.97](https://github.com/brave/brave-browser/releases/tag/v1.78.97)
+
+ - Upgraded Chromium to 136.0.7103.93. ([#45894](https://github.com/brave/brave-browser/issues/45894)) ([Changelog for 136.0.7103.93](https://chromium.googlesource.com/chromium/src/+log/136.0.7103.60..136.0.7103.93?pretty=fuller&n=1000))
+
+## [1.78.96](https://github.com/brave/brave-browser/releases/tag/v1.78.96)
+
+ - Fixed startup crash when upgrading to Chromium 136 with certain brave://flags/ enabled. ([#45816](https://github.com/brave/brave-browser/issues/45816))
+
+## [1.78.94](https://github.com/brave/brave-browser/releases/tag/v1.78.94)
+
+### Leo
+
+ - Added support for image upload to Leo. ([#44311](https://github.com/brave/brave-browser/issues/44311) & [#44844](https://github.com/brave/brave-browser/issues/44844))
+ - Increased content lengths to improve Leo response when referencing a long page content. ([#43928](https://github.com/brave/brave-browser/issues/43928))
+ - Fixed Leo not loading when "Block Scripts" is enabled in global settings. ([#36012](https://github.com/brave/brave-browser/issues/36012))
+
+### General
+
+ - Added setting to allow screenshots in Private browsing. ([#35242](https://github.com/brave/brave-browser/issues/35242))
+ - Improved "tap" animation rendering in tabs overview mode. ([#44939](https://github.com/brave/brave-browser/issues/44939))
+ - Removed known tracking parameter "ck_subscriber_id" from certain URLs. ([#44341](https://github.com/brave/brave-browser/issues/44341))
+ - Fixed an issue where Picture-in-Picture playback was not working when the screen was off. ([#44287](https://github.com/brave/brave-browser/issues/44287))
+ - Fixed crash when loading Brave News content in certain cases. ([#39166](https://github.com/brave/brave-browser/issues/39166))
+ - Upgraded Chromium to 136.0.7103.60. ([#45767](https://github.com/brave/brave-browser/issues/45767)) ([Changelog for 136.0.7103.60](https://chromium.googlesource.com/chromium/src/+log/135.0.7049.115..136.0.7103.60?pretty=fuller&n=1000))
+
+## [1.77.101](https://github.com/brave/brave-browser/releases/tag/v1.77.101)
+
+ - Upgraded Chromium to 135.0.7049.115. ([#45615](https://github.com/brave/brave-browser/issues/45615)) ([Changelog for 135.0.7049.115](https://chromium.googlesource.com/chromium/src/+log/135.0.7049.100..135.0.7049.115?pretty=fuller&n=1000))
+
+## [1.77.100](https://github.com/brave/brave-browser/releases/tag/v1.77.100)
+
+ - Upgraded Chromium to 135.0.7049.100. ([#45458](https://github.com/brave/brave-browser/issues/45458)) ([Changelog for 135.0.7049.100](https://chromium.googlesource.com/chromium/src/+log/135.0.7049.84..135.0.7049.100?pretty=fuller&n=1000))
+
+## [1.77.97](https://github.com/brave/brave-browser/releases/tag/v1.77.97)
+
+ - Upgraded Chromium to 135.0.7049.84. ([#45297](https://github.com/brave/brave-browser/issues/45297)) ([Changelog for 135.0.7049.84](https://chromium.googlesource.com/chromium/src/+log/135.0.7049.52..135.0.7049.84?pretty=fuller&n=1000))
+
+## [1.77.95](https://github.com/brave/brave-browser/releases/tag/v1.77.95)
+
+### Web3
+
+ - Updated UI to always display "Buy", "Send", "Swap", "Bridge", and "Deposit" in the "Asset Details" screen. ([#43198](https://github.com/brave/brave-browser/issues/43198))
+
+### Rewards
+
+ - Implemented Brave Rewards 3.0, a completely redesigned user experience for Brave Rewards, including an "Explore" page and many other new elements (being rolled out in phases using Griffin starting at 15%). ([#38434](https://github.com/brave/brave-browser/issues/38434))
+
+### Leo
+
+ - Added input box auto-focus when starting a new conversation. ([#40968](https://github.com/brave/brave-browser/issues/40968))
+ - Improved premium subscription linking process. ([#43956](https://github.com/brave/brave-browser/issues/43956))
+ - Updated Leo to show web sources used to generate query responses from Brave Search. ([#39630](https://github.com/brave/brave-browser/issues/39630))
+
+### General
+
+ - [Security] Updated brave://downloads to always display the download URL as reported on HackerOne by cj27_. ([#43501](https://github.com/brave/brave-browser/issues/43501))
+ - Updated default search engine to Yahoo! JAPAN for new installations in Japan region. ([#44148](https://github.com/brave/brave-browser/issues/44148))
+ - Removed search engine onboarding for all regions. ([#44818](https://github.com/brave/brave-browser/issues/44818))
+ - Fixed bottom toolbar incorrectly appearing when a mobile device was used in landscape mode. ([#43925](https://github.com/brave/brave-browser/issues/43925))
+ - Upgraded Chromium to 135.0.7049.52. ([#45124](https://github.com/brave/brave-browser/issues/45124)) ([Changelog for 135.0.7049.52](https://chromium.googlesource.com/chromium/src/+log/134.0.6998.178..135.0.7049.52?pretty=fuller&n=1000))
+
 ## [1.76.81](https://github.com/brave/brave-browser/releases/tag/v1.76.81)
 
  - Upgraded Chromium to 134.0.6998.166. ([#44856](https://github.com/brave/brave-browser/issues/44856)) ([Changelog for 134.0.6998.166](https://chromium.googlesource.com/chromium/src/+log/134.0.6998.118..134.0.6998.166?pretty=fuller&n=1000))
